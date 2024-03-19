@@ -4,6 +4,112 @@
 <head>
     <title>Wallpaper App</title>
     <link rel="stylesheet" href="styles.css">
+     <style>
+        .categories {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            margin: 2vw;
+            text-transform: uppercase;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .container>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container>div>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+
+        .container {
+
+            width: 100vw;
+            margin: 20px auto;
+            columns: 4;
+            column-gap: 3vw;
+        }
+
+        .container .box {
+            width: 100%;
+            margin-bottom: 3vw;
+            break-inside: avoid;
+        }
+
+        buttons {
+            display: flex;
+        }
+
+        button {
+            margin-left: 3vw;
+            margin-bottom: 4vw;
+            height: 2vw;
+            width: 5vw;
+            font-size: 1vw;
+            right: 0;
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                width: calc(100% -40px);
+                columns: 3;
+            }
+
+            button {
+                height: 36px;
+                width: 75px;
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                columns: 2;
+            }
+
+            button {
+                height: 36px;
+                width: 100px;
+                display: ruby;
+                font-size: 14px;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                columns: 1;
+            }
+
+            button {
+                height: 29px;
+                width: 80px;
+                font-size: 12 px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -35,6 +141,83 @@
             <p>Nature</p>
         </div>
         <!-- ... other categories ... -->
+        <div class="container2">
+        <div class="categories">
+            categories
+        </div>
+        <div class="buttons">
+            <button type="button">Nature</button>
+            <button type="button">Abstract</button>
+            <button type="button">Space</button>
+            <button type="button">Animals</button>
+            <button type="button">Minimalist</button>
+            <button type="button">Sports</button>
+            <button type="button">Vintage</button>
+            <button type="button">Artistic</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <img src="image\1.png" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\2.png" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\3.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\4.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\5.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\6.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\7.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\8.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\9.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\10.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\11.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\12.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\13.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\14.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\15.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\16.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\17.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\18.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\19.jpg" alt="error" srcset="">
+        </div>
+        <div class="box">
+            <img src="image\20.jpg" alt="error" srcset="">
+        </div>
+    </div>
     </div>
 </body>
 
