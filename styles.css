@@ -1,61 +1,148 @@
 :root {
-    /* Fonts */
-    --font-body: 'Montserrat', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    --font-head: var(--font-body);
-    --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;/* --font-icon: null; */
-  
-    --text-color: #2D2F34;
-    --heading-color: var(--text-color);
-    --light-text-color: #707682;
-    --link-color: #0074E0;
-    --link-color-alt: #0263BC;
-    --ins-background: #E6F7EB;
-    --del-background: #FFE6E6;
-    --mark-background: #FFF9E6;
-    --page-background: white;
-    --element-background: #F0F1F3;
-    --accent-color: var(--link-color);
-    --invalid-color: #DC2F2F;
-    --content-width: 55rem; /* 880px */
-    --sidebar-width: 15rem; /* 240px */
-    --typeset_-1: 1rem/1.5rem var(--font-body);       /* 16px/24px */
-    --typeset_0: 1.25rem/2rem var(--font-body);       /* 18px/32px */
-    --typeset_1: 1.5rem/2rem var(--font-body);        /* 24px/32px */
-    --typeset_2: 2rem/2.5rem var(--font-body);    /* 36px/44px */
-    --typeset_3: 2.5rem/3rem var(--font-body);        /* 48px/56px */
-    --typeset_4: 3rem/3rem var(--font-body);      /* 72px/72px */
-    --typeset_5: 5rem/5rem var(--font-body);          /* 80px/80px */
+  /* Fonts */
+  --font-body: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-head: var(--font-body);
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  /* --font-icon: null; */
+
+  --text-color: #2d2f34;
+  --heading-color: var(--text-color);
+  --light-text-color: #707682;
+  --link-color: #0074e0;
+  --link-color-alt: #0263bc;
+  --ins-background: #e6f7eb;
+  --del-background: #ffe6e6;
+  --mark-background: #fff9e6;
+  --page-background: white;
+  --element-background: #f0f1f3;
+  --accent-color: var(--link-color);
+  --invalid-color: #dc2f2f;
+  --content-width: 55rem;
+  /* 880px */
+  --sidebar-width: 15rem;
+  /* 240px */
+  --typeset_-1: 1rem/1.5rem var(--font-body);
+  /* 16px/24px */
+  --typeset_0: 1.25rem/2rem var(--font-body);
+  /* 18px/32px */
+  --typeset_1: 1.5rem/2rem var(--font-body);
+  /* 24px/32px */
+  --typeset_2: 2rem/2.5rem var(--font-body);
+  /* 36px/44px */
+  --typeset_3: 2.5rem/3rem var(--font-body);
+  /* 48px/56px */
+  --typeset_4: 3rem/3rem var(--font-body);
+  /* 72px/72px */
+  --typeset_5: 5rem/5rem var(--font-body);
+  /* 80px/80px */
 }
+
 @media (min-width: 55rem) {
   :root {
-    --typeset_-1: 1rem/1.5rem var(--font-body);       /* 16px/24px */
-    --typeset_0: 1.25rem/2rem var(--font-body);       /* 18px/32px */
-    --typeset_1: 1.5rem/2rem var(--font-body);        /* 24px/32px */
-    --typeset_2: 2.25rem/2.75rem var(--font-body);    /* 36px/44px */
-    --typeset_3: 3rem/3.5rem var(--font-body);        /* 48px/56px */
-    --typeset_4: 4.5rem/4.5rem var(--font-body);      /* 72px/72px */
-    --typeset_5: 5rem/5rem var(--font-body);          /* 80px/80px */
+    --typeset_-1: 1rem/1.5rem var(--font-body);
+    /* 16px/24px */
+    --typeset_0: 1.25rem/2rem var(--font-body);
+    /* 18px/32px */
+    --typeset_1: 1.5rem/2rem var(--font-body);
+    /* 24px/32px */
+    --typeset_2: 2.25rem/2.75rem var(--font-body);
+    /* 36px/44px */
+    --typeset_3: 3rem/3.5rem var(--font-body);
+    /* 48px/56px */
+    --typeset_4: 4.5rem/4.5rem var(--font-body);
+    /* 72px/72px */
+    --typeset_5: 5rem/5rem var(--font-body);
+    /* 80px/80px */
   }
+}
 
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-*{
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, output, ruby, section, summary,
-time, mark, audio, video {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -63,185 +150,200 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline;
 }
-body{
+
+body {
   background-image: url(main.png);
   background-color: #000000;
-background-image: linear-gradient(90deg, #050505 35%, #383838bf 70%, #aeaeae2a 100%),url(main.png);
+  background-image: linear-gradient(90deg,
+      #050505 35%,
+      #383838bf 70%,
+      #aeaeae2a 100%),
+    url(main.png);
 
-  background-size: cover;
+  background-size: contain;
 }
-.header{
-    height: 130px;
-}
-nav{
-    height: 100%;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    padding: 0% 8%;
-    
-}
-.logo{
-    
-    height: 5rem;
-    
 
+.header {
+  height: 130px;
 }
-.search-bar{
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 8%;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.search-bar {
   width: 30vh;
   height: 3rem;
   background: transparent;
   border: 1px aliceblue solid;
   border-radius: 10px;
   color: #ffffff;
+}
 
-}
-.search-bar::placeholder{
+.search-bar::placeholder {
   color: #ededed;
-  padding-left:10% ;
+  padding-left: 10%;
 }
-.search-button{
+
+.search-button {
   width: 10vh;
   height: 3rem;
   background-color: #0068de;
-  background-image: linear-gradient(90deg, #0068de 0%, #FC00FF 100%);
+  background-image: linear-gradient(90deg, #0068de 0%, #fc00ff 100%);
 
   color: var(--ins-background);
   border: none;
   border-radius: 10px;
 }
-.main-content{
+
+.main-content {
   width: 100%;
+  height: 90vh;
   display: flex;
   padding: 0% 55%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: column;
   padding-left: 8%;
-  
-  
-
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
-.main-heading{
+
+.main-heading {
   font-size: 3.5rem;
   font-weight: 600;
   color: white;
   margin-top: 20%;
   line-height: 77px;
 }
-.main-content p{
+
+.main-content p {
   color: rgb(122, 122, 122);
   font-size: 1.5rem;
   line-height: 33px;
   padding-top: 1rem;
 }
-.Discover-button{
+
+.Discover-button {
   width: 25%;
   height: 50px;
   font-size: 1rem;
   font-weight: 700;
   margin-top: 5%;
+  margin-bottom: 50%;
 }
-        .categories {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-weight: 700;
-            font-style: italic;
-            margin: 2vw;
-            text-transform: uppercase;
-        }
+/* ----------------categories section--------------- */
+.main-cat{
+  height: 100%;
+  background-color: white;
+  
+}
+.categories{
+  height: 20vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding: auto;
+  
+}
+.categories h4{
+  color: black;
+  padding: 2rem 0px;
+  font-size: 2rem;
+}
+.categorries-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#active-btn{
+  width: 10rem;
+  height: 3rem;
+  background-image: linear-gradient(90deg, #0068de 0%, #fc00ff 100%);
+  color: var(--ins-background);
+  border: none;
+  border-radius: 10px;
+}
+.categorries-btn button{
+  width: 10rem;
+  height: 3rem;
+  background-color: transparent;
+  font-size: 1rem;
+  color: black;
+  border-block-color: 1px gray solid;
+  border-radius: 10px;
+}
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+/* ------------images section---------- */
+body {
+  overflow-x: hidden;
+}
+.container{
+  padding: 0% 8vw;
+  background-color: white;
+  columns: 4;
+  column-gap: 1vw;
+}
+.container img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
 
-        body {
-            overflow-x: hidden;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            vertical-align: middle;
-            display: inline-block;
-        }
-
-        .container>div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container>div>img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 5px;
-        }
+.container>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.box {
+  width: 100%;
+  margin-bottom: 3vw;
+  break-inside: avoid;
+}
 
 
-        .container {
+@media (max-width: 1200px) {
+  .container {
+    width: calc(100% -40px);
+    columns: 3;
+  }
 
-            width: 100vw;
-            margin: 20px auto;
-            columns: 4;
-            column-gap: 3vw;
-        }
+  button {
+    height: 36px;
+    width: 75px;
+    font-size: 15px;
+  }
+}
 
-        .container .box {
-            width: 100%;
-            margin-bottom: 3vw;
-            break-inside: avoid;
-        }
+@media (max-width: 768px) {
+  .container {
+    columns: 2;
+  }
 
-        buttons {
-            display: flex;
-        }
+  button {
+    height: 36px;
+    width: 100px;
+    display: ruby;
+    font-size: 14px;
+  }
+}
 
-        button {
-            margin-left: 3vw;
-            margin-bottom: 4vw;
-            height: 2vw;
-            width: 5vw;
-            font-size: 1vw;
-            right: 0;
-        }
+@media (max-width: 480px) {
+  .container {
+    columns: 1;
+  }
 
-        @media (max-width: 1200px) {
-            .container {
-                width: calc(100% -40px);
-                columns: 3;
-            }
-
-            button {
-                height: 36px;
-                width: 75px;
-                font-size: 15px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                columns: 2;
-            }
-
-            button {
-                height: 36px;
-                width: 100px;
-                display: ruby;
-                font-size: 14px;
-            }
-
-        }
-
-        @media (max-width: 480px) {
-            .container {
-                columns: 1;
-            }
-
-            button {
-                height: 29px;
-                width: 80px;
-                font-size: 12 px;
-            }
-        }
+  button {
+    height: 29px;
+    width: 80px;
+    font-size: 12 px;
+  }
+}
